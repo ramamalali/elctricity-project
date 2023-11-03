@@ -1,0 +1,380 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.services{
+    width:100%;
+height: 500px;
+flex-shrink: 0;
+padding-top: 111px;
+}
+.star{
+    position: relative;
+    margin-top: 30px;
+   }
+    .star::before{
+      content: " ";
+      display: block;
+      width: 453px;
+height: 10px;
+      position: absolute;
+      margin-left: 750px;
+      top: 50%;
+      background: var(--yellow, #FB0);
+   }
+    .star::after{
+       content: " ";
+       display: block;
+       width: 453px;
+height: 10px;
+       margin-left: 100px;
+       position: absolute;
+       top: 50%;
+       background: var(--yellow, #FB0);
+    }
+    .dot{
+        position: relative;
+        margin-top: 30px;
+       }
+        .dot::before{
+          content: " ";
+          display: block;
+          width: 10px;
+          height: 10px;
+          position: absolute;
+          margin-left: 1210px;
+          top: 50%;
+          background: var(--yellow, #FB0);
+       }
+        .dot::after{
+           content: " ";
+           display: block;
+           width: 10px;
+           height: 10px;
+           margin-left: 80px;
+           position: absolute;
+           top: 50%;
+           background: var(--yellow, #FB0);
+        }
+        .dot1{
+            position: relative;
+            margin-top: 30px;
+           }
+            .dot1::before{
+              content: " ";
+              display: block;
+              width: 10px;
+              height: 10px;
+              position: absolute;
+              margin-left: 1230px;
+              top: 50%;
+              background: var(--yellow, #FB0);
+           }
+            .dot1::after{
+               content: " ";
+               display: block;
+               width: 10px;
+               height: 10px;
+               margin-left: 60px;
+               position: absolute;
+               top: 50%;
+               background: var(--yellow, #FB0);
+            }
+            .HAtitle{
+                color: var(--blue, #0E1FCC);
+                font-family: Hind;
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;  
+                text-align: center;
+            }
+            .Himg{
+                width: 98px;
+                height: 98px;
+            
+            }
+            .card{
+                width: 359px;
+                height: 249px;
+                flex-shrink: 0;
+                border-radius: 10px;
+                background: var(--white, #FFFEFB);
+                box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.18);
+            }
+            .HD{
+                color: var(--blue, #0E1FCC);
+                 font-family: Hind;
+                font-size: 20px;
+                 font-style: normal;
+               font-weight: 700;
+              line-height: normal;
+            }
+    @media (min-width:300px) and (max-width:350px) {
+       .HAtitle{
+          text-align: center;
+          padding-right: 50px;
+          padding-left: 20px;
+        }
+        .card{
+            width: 248.795px;
+            height: 172.563px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container{
+           padding-left: 30px !important;
+        }
+        .Himg{
+            width: 66.225px;
+            height: 66.225px;
+        }
+        .HD{
+            color: var(--blue, #0E1FCC);
+font-family: Hind;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+        }
+        .star::before{
+            content: " ";
+            display: block;
+            width: 40px;
+            height: 10px;
+            position: absolute;
+            margin-left:200px;
+            top: 50%;
+            background: var(--yellow, #FB0);
+         }
+          .star::after{
+             content: " ";
+             display: block;
+             width: 40px;
+             height: 10px;
+             margin-left: 50px;
+             position: absolute;
+             top: 50%;
+             background: var(--yellow, #FB0);
+        
+    }
+    .dot::before{
+        content: " ";
+        display: block;
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        margin-left: 250px;
+        top: 50%;
+        background: var(--yellow, #FB0);
+     }
+      .dot::after{
+         content: " ";
+         display: block;
+         width: 10px;
+         height: 10px;
+         margin-left:30px;
+         position: absolute;
+         top: 50%;
+         background: var(--yellow, #FB0);
+      }
+      .dot1::before{
+        content: " ";
+        display: block;
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        margin-left: 270px;
+        top: 50%;
+        background: var(--yellow, #FB0);
+     }
+      .dot1::after{
+         content: " ";
+         display: block;
+         width: 10px;
+         height: 10px;
+         margin-left: 10px;
+         position: absolute;
+         top: 50%;
+         background: var(--yellow, #FB0);
+      }
+}
+@media (min-width:351px) and (max-width:770px) {
+    .HAtitle{
+        text-align: center;
+        padding-right: 50px;
+        padding-left: 20px;
+      }
+      .card{
+          width: 248.795px;
+          height: 172.563px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+      .container{
+         padding-left: 100px !important;
+      }
+      .Himg{
+          width: 66.225px;
+          height: 66.225px;
+      }
+      .HD{
+font-family: Hind;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+      }
+      .star::before{
+        content: " ";
+        display: block;
+        width: 40px;
+        height: 10px;
+        position: absolute;
+        margin-left:200px;
+        top: 50%;
+        background: var(--yellow, #FB0);
+     }
+      .star::after{
+         content: " ";
+         display: block;
+         width: 40px;
+         height: 10px;
+         margin-left: 90px;
+         position: absolute;
+         top: 50%;
+         background: var(--yellow, #FB0);
+    
+}
+.dot::before{
+    content: " ";
+    display: block;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    margin-left: 250px;
+    top: 50%;
+    background: var(--yellow, #FB0);
+ }
+  .dot::after{
+     content: " ";
+     display: block;
+     width: 10px;
+     height: 10px;
+     margin-left:70px;
+     position: absolute;
+     top: 50%;
+     background: var(--yellow, #FB0);
+  }
+  .dot1::before{
+    content: " ";
+    display: block;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    margin-left: 270px;
+    top: 50%;
+    background: var(--yellow, #FB0);
+ }
+  .dot1::after{
+     content: " ";
+     display: block;
+     width: 10px;
+     height: 10px;
+     margin-left: 50px;
+     position: absolute;
+     top: 50%;
+     background: var(--yellow, #FB0);
+  }
+
+}
+@media (min-width:771px) and (max-width:1200px) {
+    .card{
+        width: 248.795px;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       gap: 80px !important;
+       padding: 80px !important;
+    }
+    .star::before{
+        content: " ";
+        display: block;
+        width: 40px;
+        height: 10px;
+        position: absolute;
+        margin-left:200px;
+        top: 50%;
+        background: var(--yellow, #FB0);
+     }
+      .star::after{
+         content: " ";
+         display: block;
+         width: 40px;
+         height: 10px;
+         margin-left: 90px;
+         position: absolute;
+         top: 50%;
+         background: var(--yellow, #FB0);
+    
+}
+.dot::before{
+    content: " ";
+    display: block;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    margin-left: 250px;
+    top: 50%;
+    background: var(--yellow, #FB0);
+ }
+  .dot::after{
+     content: " ";
+     display: block;
+     width: 10px;
+     height: 10px;
+     margin-left:70px;
+     position: absolute;
+     top: 50%;
+     background: var(--yellow, #FB0);
+  }
+  .dot1::before{
+    content: " ";
+    display: block;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    margin-left: 270px;
+    top: 50%;
+    background: var(--yellow, #FB0);
+ }
+  .dot1::after{
+     content: " ";
+     display: block;
+     width: 10px;
+     height: 10px;
+     margin-left: 50px;
+     position: absolute;
+     top: 50%;
+     background: var(--yellow, #FB0);
+  }
+}
+.card:hover{
+   background-color: #0E1FCC;
+   color: #FFFEFB;
+}
+.HD:hover{
+   color: #FFFEFB;
+}
+.Himg:hover{
+   background-color: white;
+}

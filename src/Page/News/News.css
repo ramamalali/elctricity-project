@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.NtitleAPP{
+color: var(--blue, #0E1FCC);
+text-align: center;
+font-family: Hind;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 78px;
+}
+.News{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.NApp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100% !important;
+    overflow: hidden;
+    background: var(--white, #FFFEFB);
+}
+.Slider{
+    width: 100%;
+    height: 800px;
+    background: var(--white, #FFFEFB);
+    padding: 50px;
+    padding-left: 50px;
+    margin: -15px auto 100px auto;
+    
+}
+.slick-dots{
+   color: blue !important;
+   width: 50% ;
+   height: 90px;
+}
+.Ncard{
+    width: 100%;
+    height: 700px;
+box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.18);
+}
+.card-image{
+background: var(--white, #FFFEFB);
+padding: 3px;
+width: 100%;
+background-size: cover;
+}
+.card-image .card-img{
+    width: 100%;
+    height: 424px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.Ntitle{
+    display: flex;
+    align-items: flex-end;
+    justify-content:flex-end;
+    margin: 20px;
+    gap: 10px;
+}
+.Nctitle{
+    color: var(--yellow, #FB0);
+text-align: right;
+font-family: Hind;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.NHtitle{
+color: var(--black, #01020D);
+text-align: right;
+font-family: Hind;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-right: 23px;
+}
+.NPargh{
+ color: var(--black, #01020D);
+text-align: right;
+font-family: Hind;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-right: 23px;
+}
+.NA{
+    flex: 1 0 0;
+    color: var(--yellow, #FB0);
+margin: 5px;
+padding-left: 20px;
+display: flex;
+gap: 10px;
+}
+.NA a{
+    color: var(--yellow, #FB0);
+    font-family: Hind;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+}
+.Newbtn{
+    display: flex;
+width: 160px;
+height: 50px;
+padding: 10px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 5px;
+background: var(--blue, #0E1FCC);
+box-shadow: 0px 10px 11px 0px rgba(0, 0, 0, 0.10);
+flex: 1 0 0;
+color: var(--white, #FFFEFB);
+text-align: center;
+font-family: Hind;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin: 0 auto;
+margin-bottom: 50px;
+
+}
+.slick-dots li button::before{
+    color: #0E1FCC !important;
+    margin-top: 30px;
+    border: 1px #0E1FCC solid;
+    border-radius: 50%;
+    background-color: #0E1FCC;
+   margin-left: 0px;
+}

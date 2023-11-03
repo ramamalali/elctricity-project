@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.img{
+    width: 100%;
+    height: 35.625rem;
+    flex-shrink: 0;
+    border-radius: 0rem 0rem 0.3125rem 0.3125rem;
+    background-color: rgba(1, 2, 13, 0.49);
+}
+.Htitle{
+color: var(--white, #FFFEFB);
+text-align: center;
+font-family: Hind;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.Hobtn{
+    display: flex;
+     width: 8.4375rem;
+     margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.3125rem;
+    text-align: center;
+   font-family: Hind;
+   font-size: 1.25rem;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+    color: black;
+    margin-bottom: 200px;
+}
+.iconh{
+  color: yellow !important;
+    width: 25%;
+    height: 25%;
+}
+.carousel-indicators button{
+    width: 15px !important;
+    height: 15px!important;
+    border-radius: 50% !important;
+    border: 5 solid yellow !important;
+    background-color: yellow !important;
+}/*
+.carousel-indicators button:active{
+    background-color: yellow !important;
+}
+.carousel-control-prev span ,.carousel-control-next span{
+    color: yellow !important;
+    width: 50px !important;
+    height: 50px !important;
+
+}*/
+@media (min-width:300px) and (max-width:600px) {
+    .Htitle{
+ color: var(--white, #FFFEFB);
+text-align: center;
+font-family: Hind;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+    }
+    .Hobtn{
+        width: 92px;
+        height:Hug( 32px);
+        display: inline-flex;
+        padding: 5px 10px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        color: var(--black, #01020D);
+text-align: center;
+font-family: Hind;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+    }
+    .carousel-control-prev span ,.carousel-control-next span{
+        visibility: hidden;
+    }
+}
+@media (min-width:601px) and (max-width:1050px){
+    .Htitle{
+        color: var(--white, #FFFEFB);
+text-align: center;
+font-family: Hind;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+    }
+    .Hobtn{
+        width:  Hug (120px);
+        height:Hug( 50px);
+        display: inline-flex;
+        padding: 5px 10px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        color: var(--black, #01020D);
+text-align: center;
+font-family: Hind;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+    }
+    .carousel-control-prev span ,.carousel-control-next span{
+        visibility: hidden;
+    }
+}
