@@ -6,10 +6,10 @@ import './Home.css'
 
 const Home = () => {
   return (
-    <Carousel>
+    <Carousel className='home' >
     <Carousel.Item>
       <img src={img1} className='img'/>
-      <Carousel.Caption>
+      <Carousel.Caption className='home'>
         <h3  className='Htitle'>التوجه نحو الطاقات المتجددة في توليد الكهرباء</h3>
         <Button className='Hobtn' variant="warning">..اقرأ المزيد</Button>
       </Carousel.Caption>

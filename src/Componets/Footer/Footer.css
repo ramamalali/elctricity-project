@@ -5,43 +5,33 @@
 }
 .Footer{
     width: 100%;
-height: 534px;
+height: 33.375rem;;
 flex-shrink: 0;
 border-radius: 5px 5px 0px 0px;
 background: #63646B;
-margin-top: 80px;
+position: relative;
 }
 .Fotitle{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    position: relative;
+    top: 5%;
 }
 .FoH1{
     color: var(--white, #FFFEFB);
 text-align: center;
 font-family: Hind;
-font-size: 25px;
+font-size:  1.5625rem;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
-margin-top: 30px;
 }
 .FoH2{
-    margin-top: 50px;
     color: var(--white, #FFFEFB);
 text-align: center;
 font-family: Hind;
-font-size: 25px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-}
-.FoH3{
-    margin-top: 80px;
-    color: var(--white, #FFFEFB);
-text-align: center;
-font-family: Hind;
-font-size: 25px;
+font-size: 1.125rem;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
@@ -55,7 +45,7 @@ line-height: normal;
     color: var(--white, #FFFEFB);
     text-align: center;
     font-family: Hind;
-    font-size: 15px;
+    font-size: 1.125rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -64,23 +54,24 @@ line-height: normal;
     color: var(--white, #FFFEFB);
 text-align: right;
 font-family: Hind;
-font-size: 15px;
+font-size: 1.125rem;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
-margin-top: 20px;
 }
 .FoHr{
-    margin: 0 auto;
-    margin-top: 100px;
-    width: 1216px;
-    height: 2px;
+    width: 76rem;
+height: 0.125rem;
     opacity: 0.7;
 background: rgba(255, 254, 251, 0.50);
+position: absolute;
+    top: 60%;
+    left: 2%;
 }
 .Svghr{
-    margin-left:650px ;
-    transform:translate(0,-35px);
+    position: absolute;
+    top: 55%;
+    left: 50%;
 }
 .endfooter{
     display: flex;
@@ -88,19 +79,34 @@ background: rgba(255, 254, 251, 0.50);
     justify-content: space-between;
 }
 .focall{
-    margin-left: 50px;
     display: flex;
     align-items: center;
     justify-content: flex-end;
     gap: 20px;
+    position: absolute;
+    top: 70%;
+    left: 10%;
 }
-.pcall{
+.pcal{
     color: var(--white, #FFFEFB);
-text-align: center;
-margin-top: 20px;
+text-align: right;
 font-family: Hind;
-font-size: 18px;
+font-size: 1.125rem;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
+position: absolute;
+    top: 70%;
+    left: 70%;
 }
+.pcall{
+    color: var(--white, #FFFEFB);
+text-align: left;
+font-family: Hind;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+position: relative;
+}
+

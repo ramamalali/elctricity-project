@@ -8,26 +8,24 @@
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    height: 400px;
+     height: 22.5rem;
     flex-shrink: 0;
     background: linear-gradient(267deg, #2F3BBF 18.6%, rgba(2, 15, 109, 0.00) 115.87%);
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.18);
-    margin-top: 300px;
-    margin-bottom: 100px;
 }
 .comimg{
-    width: 452px;
-    height: 464px;
+    width: 28.25rem;
+    height: 29rem;
    flex-shrink: 0;  
-   margin-left: 100px;
-   transform:translate(0,-50px);
+   position: relative;
+    top: 30%;
+    left: 10%;
 }
 .comtitile{
 color: var(--yellow, #FB0);
 text-align: right;
 font-family: Hind;
-margin-right: 163px;
-font-size: 36px;
+font-size: 2.25rem;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
@@ -35,226 +33,83 @@ line-height: normal;
 .comde{
     color: var(--white, #FFFEFB);
 text-align: right;
-margin-right: 163px;
 font-family: Hind;
-font-size: 18px;
+font-size: 1.125rem;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
 .Hsvg{
-    width: 150px;
-height: 44.444px;
+    width: 9.375rem;
+    height: 2.77775rem;
 display: flex;
 align-items: center;
 justify-content: center;
-gap: 30px;
-margin-top: 30px;
+gap: 40px;
 }
 .Down{
     display: flex;
-width: 150px;
-height: 43px;
-margin-right:10px ;
+    width: 9.375rem;
+    height: 2.77775rem;;
 justify-content: center;
 align-items: center;
-gap: 10px;
+gap:  0.625rem;;
 flex-shrink: 0;
-border-radius: 5px;
+border-radius:  0.3125rem;;
 background: #FFFEFB;
-margin-top: 25px;
-margin-bottom: 30px;
+position: absolute;
+left: 90%;
+top: 31%;
 }
 .Ptitle{
     color: #000;
 text-align: right;
 font-family: Hind;
-font-size: 18px;
+font-size: 1.125rem;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
 margin-top: 15px;
 }
 
-@media screen and (min-width: 300px) {
-    .HComplaints {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-bottom: 20px;
-        width: 100%;
-        height: 500px;
-    }
-    .comimg {
-        width: 350px;
-        height: auto;
-        margin-right: 10px;
-    }
-    .comtitile {
-        font-size: 24px;
-        font-weight: bold;
-        text-align: center;
-        margin-bottom: 10px;
-    }
-    .comde {
-        font-size: 18px;
-        text-align: center;
-        margin-bottom: 10px;
-    }
-    .Hsvg {
-        width: 150px;
-        height: 45px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-}
-
-@media screen and (min-width: 600px) and (max-width: 1919px) {
-    .HApp {
-        margin-top: 40px;
-        width: 100%;
-        height: 500px;
-    }
-    .HComplaints {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        margin-bottom: 30px;
-        width: 100%;
-        height: 600px;
-    }
-    .comimg {
-        width: 350px;
-        height: auto;
-        margin-right: 20px;
-    }
-    .comtitile {
-        font-size: 36px;
-        font-weight: bold;
-        text-align: center;
-        margin-bottom: 20px;
-    }
-    .comde {
-        font-size: 24px;
-        text-align: center;
-        margin-bottom: 20px;
-    }
-    .Hsvg {
-        width: 150px;
-        height: 45px;
-    }
-}
 
 @media screen and (min-width: 1920px) {
     .HApp {
         margin-top: 60px;
     }
     .HComplaints {
+        width: 100%;
         display: flex;
         flex-direction: row;
         align-items: center;
-        margin-bottom: 40px;
     }
     .comimg {
-        width: 350px;
-        height: auto;
-        margin-right: 30px;
+        width: 28.25rem;
+        height: 26rem;
+        position: absolute;
+        top: 1%;
     }
     .comtitile {
-        font-size: 48px;
+        font-size: 2.25rem;
         font-weight: bold;
-        text-align: center;
-        margin-bottom: 30px;
+        text-align: right;
+        position: absolute;
+        left: 80%;
+        top: 20%;
     }
     .comde {
-        font-size: 36px;
-        text-align: center;
-        margin-bottom: 30px;
+        font-size: 1.125rem;
+        text-align: right;
+        position: absolute;
+        left: 78%;
     }
     .Hsvg {
-        width: 150px;
-        height: 45px;
+        width: 9.375rem;
+        height: 2.77775rem;
         display: flex;
+        position: absolute;
+        left: 75%;
+        top: 30%;
     }
-}
-.HComplaints {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    height: auto;
-    flex-shrink: 0;
-    background: linear-gradient(267deg, #2F3BBF 18.6%, rgba(2, 15, 109, 0.00) 115.87%);
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.18);
-    margin-top: 300px;
-    margin-bottom: 100px;
-}
-
-.comimg {
-    width: 452px;
-    height: 500px;
-    flex-shrink: 0;  
-    margin-left: 100px;
-    transform:translate(0,-50px);
-}
-
-.comtitile {
-    color: var(--yellow, #FB0);
-    text-align: right;
-    font-family: Hind;
-    margin-right: 163px;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-
-.comde {
-    color: var(--white, #FFFEFB);
-    text-align: right;
-    margin-right: 163px;
-    font-family: Hind;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.Hsvg {
-    width: 150px;
-    height: 44.444px;
-    display: flex;
-    align-items: center;
-    justify-content: center;flex-wrap: nowrap;
-    gap: 30px;
-    margin-top: 30px;
-}
-
-.Down {
-    display: flex;
-    width: 150px;
-    height: 43px;
-    margin-right:10px ;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    flex-shrink: 0;
-    border-radius: 5px;
-    background: #FFFEFB;
-    margin-bottom: 2px;
-    
-}
-
-.Ptitle {
-    color: #000;
-    text-align: right;
-    font-family: Hind;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin-top: 15px;
 }
 

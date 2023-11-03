@@ -8,7 +8,7 @@ const Services = () => {
     <div className='services'>
         <p className='dot'> <p className='dot1'>  <p className='star'><h1 className='HAtitle'>خدمات</h1></p></p></p>
         <div className="container">
-      <div className="row">
+      <div className="sercard row">
        <div className=" col-lg-4 col-md-6 col-sm-12">
        <div className="card mt-5 text-center">
       <div className=" mt-3 p-3 align-self-center"><img src={icon} className='Himg'/> </div>

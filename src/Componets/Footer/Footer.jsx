@@ -7,7 +7,7 @@ const Footer = () => {
       <div className='Footer' >
         <div className='Fotitle'>
           <div className='Fot'>
-          <h3 className='FoH1'>تواصل معنا</h3>
+          <h3 className='FoH2'>تواصل معنا</h3>
             <p className='fosvg'>
 تنزيل تطبيق الشكاوى
               <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
@@ -33,7 +33,7 @@ const Footer = () => {
 
           <div className='Fot'>
           
-          <h3 className='FoH3'>وزارات أخرى</h3>
+          <h3 className='FoH2'>وزارات أخرى</h3>
             <p className='FoP'>وزارة المياه</p>
             <p className='FoP'>وزارة الإتصالات  </p>
             <p className='FoP'>وزارة التعليم العالي</p>
@@ -63,7 +63,7 @@ const Footer = () => {
 </svg>
 <p className='pcall'>تواصل معنا</p>
            </div>
-         <p className='pcall' style={{marginRight:'50px'}}> جميع الحقوق محفوظة لموقع وزارة الكهرباء 2023</p>
+         <p className='pcal' style={{marginRight:'50px'}}> جميع الحقوق محفوظة لموقع وزارة الكهرباء 2023</p>
           </div>
       </div>
     </div>
