@@ -9,7 +9,7 @@ height: 33.375rem;;
 flex-shrink: 0;
 border-radius: 5px 5px 0px 0px;
 background: #63646B;
-position: relative;
+ margin-top: 90px; 
 }
 .Fotitle{
     display: flex;
@@ -64,14 +64,14 @@ line-height: normal;
 height: 0.125rem;
     opacity: 0.7;
 background: rgba(255, 254, 251, 0.50);
-position: absolute;
-    top: 60%;
+position: relative;
     left: 2%;
+    margin-top: 40px;
 }
 .Svghr{
-    position: absolute;
-    top: 55%;
+    position: relative;
     left: 50%;
+    transform: translate(0,-50px);
 }
 .endfooter{
     display: flex;
@@ -84,7 +84,6 @@ position: absolute;
     justify-content: flex-end;
     gap: 20px;
     position: absolute;
-    top: 70%;
     left: 10%;
 }
 .pcal{
@@ -96,8 +95,7 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 position: absolute;
-    top: 70%;
-    left: 70%;
+left: 60%
 }
 .pcall{
     color: var(--white, #FFFEFB);
@@ -110,3 +108,52 @@ line-height: normal;
 position: relative;
 }
 
+@media (min-width:1500px) {
+    .FoHr{
+        left: 10%;
+        width: 87rem;
+    }
+    .Svghr{
+left: 485;
+    }
+    
+}
+@media (min-width:851px) and (max-width:1245px) {
+
+  .FoHr{
+    width: 30rem;
+    left: 20%;
+  }  
+  .Svghr{
+    left: 43%;
+  }
+  .pcal{
+    left: 40%;
+  }
+}
+@media (min-width:300px) and (max-width:850px){
+    .Footer{
+        height: 50.5rem;
+        width:100%;
+    }
+.Fotitle{
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+}
+.FoHr{
+    width: 21.8125rem;
+    margin-top: 14%;
+    left: 28%;
+}
+.Svghr{
+left: 45%;
+transform: translate(0,-50px);
+}
+.pcall{
+    left: 10%;
+    flex-wrap: wrap;
+}
+.pcal{
+    left: 46%;
+}
+}

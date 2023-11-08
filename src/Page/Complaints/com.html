@@ -1,13 +1,118 @@
-import React from 'react'
-import './Footer.css'
-/* import './smooth.js' */
-const Footer = () => {
-  return (
-    <div >
-      <div className='Footer' >
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+ .Footer{
+    width: 100%;
+height: 534px;
+flex-shrink: 0;
+border-radius: 5px 5px 0px 0px;
+background: #63646B;
+margin-top: 80px;
+}
+.Fotitle{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.FoH1{
+    color: var(--white, #FFFEFB);
+text-align: center;
+font-family: Hind;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 30px;
+}
+.FoH2{
+    margin-top: 50px;
+    color: var(--white, #FFFEFB);
+text-align: center;
+font-family: Hind;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.FoH3{
+    margin-top: 80px;
+    color: var(--white, #FFFEFB);
+text-align: center;
+font-family: Hind;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.fosvg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: var(--white, #FFFEFB);
+    text-align: center;
+    font-family: Hind;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.FoP{
+    color: var(--white, #FFFEFB);
+text-align: right;
+font-family: Hind;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 20px;
+}
+.FoHr{
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 1216px;
+    height: 2px;
+    opacity: 0.7;
+background: rgba(255, 254, 251, 0.50);
+}
+.Svghr{
+    margin-left:650px ;
+    transform:translate(0,-35px);
+}
+.endfooter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.focall{
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+}
+.pcall{
+    color: var(--white, #FFFEFB);
+text-align: center;
+margin-top: 20px;
+font-family: Hind;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+    </style>
+</head>
+<body>
+    <div className='Footer' >
         <div className='Fotitle'>
           <div className='Fot'>
-          <h3 className='FoH2'>تواصل معنا</h3>
+          <h3 className='FoH1'>تواصل معنا</h3>
             <p className='fosvg'>
 تنزيل تطبيق الشكاوى
               <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
@@ -33,7 +138,7 @@ const Footer = () => {
 
           <div className='Fot'>
           
-          <h3 className='FoH2'>وزارات أخرى</h3>
+          <h3 className='FoH3'>وزارات أخرى</h3>
             <p className='FoP'>وزارة المياه</p>
             <p className='FoP'>وزارة الإتصالات  </p>
             <p className='FoP'>وزارة التعليم العالي</p>
@@ -45,10 +150,10 @@ const Footer = () => {
         </div>
         <div>
         <hr className='FoHr'/>
-        <a href='#home' className='link1'><svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70" fill="none" className='Svghr'>
+        <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70" fill="none" className='Svghr'>
   <rect width="70" height="70" rx="5" fill="#A8A8A8"/>
   <path d="M14.25 41.2499L17.625 44.3999L34.5 27.7499L51.375 44.3999L54.75 41.2499L34.5 20.9999L14.25 41.2499Z" fill="#FFFEFB"/>
-</svg></a>
+</svg>
 </div>
           <div className='endfooter'>
            <div className='focall'>
@@ -63,11 +168,8 @@ const Footer = () => {
 </svg>
 <p className='pcall'>تواصل معنا</p>
            </div>
-         <p className='pcal'> جميع الحقوق محفوظة لموقع وزارة الكهرباء 2023</p>
+         <p className='pcall' style={{marginRight:'50px'}}> جميع الحقوق محفوظة لموقع وزارة الكهرباء 2023</p>
           </div>
       </div>
-    </div>
-  )
-}
-
-export default Footer
+</body>
+</html>
