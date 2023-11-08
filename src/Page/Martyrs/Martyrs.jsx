@@ -47,7 +47,7 @@ const Martyrs = () => {
     ]
   };
   return (
-    <div>
+    <div className='Matre'>
       <h1 className='MAtitle'> شهداؤنا</h1>
       <div className='MAtAPP'>
         <div>

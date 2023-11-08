@@ -5,16 +5,18 @@
 }
 .services{
     width:100%;
-height: 277.5rem;
+height: 100.5rem;
+display: flex;
+align-items:flex-start;
+justify-content: center;
+margin-top: 343px;
 }
     .star::before{
       content: " ";
       display: block;
       width: 28.3125rem;
       height: 0.625rem;
-      position: absolute;
-      top: 62%;
-      right: 55%;
+      position: absolute; 
       background: var(--yellow, #FB0);
    }
     .star::after{
@@ -23,8 +25,6 @@ height: 277.5rem;
        width: 28.3125rem;
 height: 0.625rem;
        position: absolute;
-       top: 62%;
-       left: 55%;
        background: var(--yellow, #FB0);
     }
         .dot::before{
@@ -33,8 +33,6 @@ height: 0.625rem;
           width: 0.625rem;
 height: 0.625rem;
           position: absolute;
-          top: 62%;
-          left: 6%;
           background: var(--yellow, #FB0);
        }
         .dot::after{
@@ -43,8 +41,6 @@ height: 0.625rem;
            width: 0.625rem;
            height: 0.625rem;
            position: absolute;
-           top: 62%;
-           right: 8%;
            background: var(--yellow, #FB0);
         }
         
@@ -54,8 +50,6 @@ height: 0.625rem;
               width: 0.625rem;
               height: 0.625rem;
               position: absolute;
-              top: 62%;
-              left: 8%;
               background: var(--yellow, #FB0);
            }
             .dot1::after{
@@ -64,15 +58,8 @@ height: 0.625rem;
                width: 0.625rem;
                height: 0.625rem;
                position: absolute;
-               top: 62%;
-               right: 6%;
                background: var(--yellow, #FB0);
             } 
-            .sercard{
-               display: flex;
-               align-items: center;
-               justify-content: center;
-            }
             .HAtitle{
                 color: var(--blue, #0E1FCC);
                 font-family: Hind;
@@ -93,13 +80,13 @@ height: 0.625rem;
             .card{
                width: 22.4375rem;
                height: 15.5625rem;
-                flex-shrink: 0;
-                display: flex;
-                align-items: center;
-                justify-content: center;
                 border-radius: 0.625rem;
                 background: var(--white, #FFFEFB);
                 box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.18);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-wrap: wrap;
             }
             .HD{
                 color: var(--blue, #0E1FCC);
@@ -110,20 +97,115 @@ height: 0.625rem;
               line-height: normal;
             }
   
-   @media (min-width:1300px){
+   @media (min-width:1251px){
+      .HAtitle{
+         top: 80%;
+         left: 43%;
+      }
+      .star::after{
+         top: 82%;
+         left: 6%;
+      }
+      .star::before{
+         top: 82%;
+         right: 15%
+      }
     .dot::after{
-      left: 78%;
+      top: 82%;
+      left: 4%;
     }
     .dot1::after{
-      left: 80%;
+      top: 82%;
+      left: 5%;
     }
     .dot::before{
-      left: 22%;
+      top: 82%;
+    right: 13%;
     }
     .dot1::before{
-      left: 20%;
+      top: 82%;
+      right: 14%;
     }
 
+   }
+   @media (min-width:801px) and (max-width:1250px)
+    {
+      .HAtitle{
+         top: 80%;
+         left: 43%;
+      }
+      .star::after{
+         top: 82%;
+         left: 7%;
+         width: 11rem;
+      }
+      .star::before{
+         top: 82%;
+         right: 14%;
+         width: 11rem;
+      }
+    .dot::after{
+      top: 82%;
+      left: 3%;
+    }
+    .dot1::after{
+      top: 82%;
+      left: 5%;
+    }
+    .dot::before{
+      top: 82%;
+    right: 12%;
+    }
+    .dot1::before{
+      top: 82%;
+      right: 10%;
+    }
+    .card{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+      
+   }
+   @media (min-width:300px) and (max-width:800px){
+         .HAtitle{
+            top: 80%;
+            left: 43%;
+         }
+         .star::after{
+            top: 82%;
+            left: 14%;
+            width: 4rem;
+         }
+         .star::before{
+            top: 82%;
+            right: 11%;
+            width: 4rem;
+         }
+       .dot::after{
+         top: 82%;
+         left: 3%;
+       }
+       .dot1::after{
+         top: 82%;
+         left: 8%;
+       }
+       .dot::before{
+         top: 82%;
+       right: 5%;
+       }
+       .dot1::before{
+         top: 82%;
+         right: 8%;
+       }
+       .card{
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         flex-wrap: wrap;
+       }
+         
    }
 .card:hover{
    background-color: #0E1FCC;
