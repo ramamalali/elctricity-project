@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.EleApp {
+  /* display: flex;
+   align-items: center;
+   justify-content: center; */
+  flex-direction: column;
+  width: 100%;
+  height: 79rem;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.Etitle {
+  text-align: center;
+  color: var(--blue, #0e1fcc);
+  font-family: Hind;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.Eimg1 {
+  margin: 0 auto;
+  text-align: center;
+}
+.Eimg {
+  width: 75.9375rem;
+  height: 28.25rem;
+  border-radius: 0.3125rem;
+}
+.Elpar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 96%;
+}
+.Edesc {
+  width: 80rem;
+  color: var(--black, #01020d);
+  text-align: right;
+  font-family: Hind;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 201.1%;
+}
+.ElecH {
+  color: var(--black, #01020d);
+  font-family: Hind;
+  text-align: right;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  position: relative;
+  left: 45%;
+  line-height: 201.1%;
+}
+.Ecard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 20.875rem;
+  height: 31.0625rem;
+  border-radius: 0.3125rem;
+  background: blue;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.18);
+}
+
+@media (min-width: 300px) and (max-width: 1251px) {
+  .Electricity {
+    visibility: hidden;
+  }
+  .Slide_Electricity {
+    visibility: visible;
+  }
+}
+@media (min-width: 1250px) {
+  .Slide_Electricity {
+    visibility: hidden;
+  }
+  .Electricity {
+    visibility: visible;
+  }
+}

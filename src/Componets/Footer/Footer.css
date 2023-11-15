@@ -1,112 +1,159 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.Footer{
-    width: 100%;
-height: 33.375rem;;
-flex-shrink: 0;
-border-radius: 5px 5px 0px 0px;
-background: #63646B;
-position: relative;
+.Footer {
+  width: 100%;
+  height: 33.375rem;
+  flex-shrink: 0;
+  border-radius: 5px 5px 0px 0px;
+  background: #63646b;
+  margin-top: 90px;
 }
-.Fotitle{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    position: relative;
-    top: 5%;
+.Fotitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  top: 5%;
 }
-.FoH1{
-    color: var(--white, #FFFEFB);
-text-align: center;
-font-family: Hind;
-font-size:  1.5625rem;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+.FoH1 {
+  color: var(--white, #fffefb);
+  text-align: center;
+  font-family: Hind;
+  font-size: 1.5625rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
-.FoH2{
-    color: var(--white, #FFFEFB);
-text-align: center;
-font-family: Hind;
-font-size: 1.125rem;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+.FoH2 {
+  color: var(--white, #fffefb);
+  text-align: center;
+  font-family: Hind;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 2rem;
 }
 
-.fosvg{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    color: var(--white, #FFFEFB);
-    text-align: center;
-    font-family: Hind;
-    font-size: 1.125rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+.fosvg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: var(--white, #fffefb);
+  text-align: center;
+  font-family: Hind;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
-.FoP{
-    color: var(--white, #FFFEFB);
-text-align: right;
-font-family: Hind;
-font-size: 1.125rem;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+.FoP {
+  color: var(--white, #fffefb);
+  text-align: right;
+  font-family: Hind;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 2rem;
 }
-.FoHr{
-    width: 76rem;
-height: 0.125rem;
-    opacity: 0.7;
-background: rgba(255, 254, 251, 0.50);
-position: absolute;
-    top: 60%;
-    left: 2%;
+.FoHr {
+  width: 76rem;
+  height: 0.125rem;
+  opacity: 0.7;
+  background: rgba(255, 254, 251, 0.5);
+  position: relative;
+  left: 2%;
+  margin-top: 40px;
 }
-.Svghr{
-    position: absolute;
-    top: 55%;
-    left: 50%;
+.Svghr {
+  position: relative;
+  left: 50%;
+  transform: translate(0, -50px);
 }
-.endfooter{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.endfooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.focall{
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    gap: 20px;
-    position: absolute;
-    top: 70%;
+.focall {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 20px;
+  position: absolute;
+  left: 10%;
+}
+.pcal {
+  color: var(--white, #fffefb);
+  text-align: right;
+  font-family: Hind;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  position: absolute;
+  left: 60%;
+}
+.pcall {
+  color: var(--white, #fffefb);
+  text-align: left;
+  font-family: Hind;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  position: relative;
+}
+
+@media (min-width: 1500px) {
+  .FoHr {
     left: 10%;
+    width: 87rem;
+  }
+  .Svghr {
+    left: 485;
+  }
 }
-.pcal{
-    color: var(--white, #FFFEFB);
-text-align: right;
-font-family: Hind;
-font-size: 1.125rem;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-position: absolute;
-    top: 70%;
-    left: 70%;
+@media (min-width: 851px) and (max-width: 1245px) {
+  .FoHr {
+    width: 30rem;
+    left: 20%;
+  }
+  .Svghr {
+    left: 43%;
+  }
+  .pcal {
+    left: 40%;
+  }
 }
-.pcall{
-    color: var(--white, #FFFEFB);
-text-align: left;
-font-family: Hind;
-font-size: 1.125rem;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-position: relative;
+@media (min-width: 300px) and (max-width: 850px) {
+  .Footer {
+    height: 50.5rem;
+    width: 100%;
+  }
+  .Fotitle {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+  .FoHr {
+    width: 21.8125rem;
+    margin-top: 14%;
+    left: 28%;
+  }
+  .Svghr {
+    left: 45%;
+    transform: translate(0, -50px);
+  }
+  .pcall {
+    left: 10%;
+    flex-wrap: wrap;
+  }
+  .pcal {
+    left: 46%;
+  }
 }
-

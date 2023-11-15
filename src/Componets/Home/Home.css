@@ -3,6 +3,12 @@
     margin: 0;
     box-sizing: border-box;
 }
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 9rem !important;
+}
 .carousel-caption{
     display: flex;
     flex-direction: column;

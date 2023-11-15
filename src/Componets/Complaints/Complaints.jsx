@@ -9,6 +9,7 @@ const Complaints = () => {
       <div>
       <p className='comtitile'>شارك معنا...رأيك يهمنا</p>
       <p className='comde'>... حمّل تطبيق الشكاوى وشاركنا مشاكلك واقتراحاتك</p>
+      <div className="contant">
       <div className='Hsvg'>
         <div style={{display:'flex',alignItems:'center',justifyContent:'center',gap:'30px'}}>
     <svg xmlns="http://www.w3.org/2000/svg" className='Hsvg' viewBox="0 0 150 45" fill="none">
@@ -71,6 +72,7 @@ const Complaints = () => {
 </svg>
 <p className='Ptitle'>تحميل مباشر</p>
 </div>
+      </div>
       </div>
       </div>
       </div>

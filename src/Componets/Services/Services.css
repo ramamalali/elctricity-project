@@ -1,0 +1,213 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.services {
+  width: 100%;
+  height: 28.5rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.star::before {
+  content: " ";
+  display: block;
+  width: 28.3125rem;
+  height: 0.625rem;
+  position: absolute;
+  background: var(--yellow, #fb0);
+}
+.star::after {
+  content: " ";
+  display: block;
+  width: 28.3125rem;
+  height: 0.625rem;
+  position: absolute;
+  background: var(--yellow, #fb0);
+}
+.dot::before {
+  content: " ";
+  display: block;
+  width: 0.625rem;
+  height: 0.625rem;
+  position: absolute;
+  background: var(--yellow, #fb0);
+}
+.dot::after {
+  content: " ";
+  display: block;
+  width: 0.625rem;
+  height: 0.625rem;
+  position: absolute;
+  background: var(--yellow, #fb0);
+}
+
+.dot1::before {
+  content: " ";
+  display: block;
+  width: 0.625rem;
+  height: 0.625rem;
+  position: absolute;
+  background: var(--yellow, #fb0);
+}
+.dot1::after {
+  content: " ";
+  display: block;
+  width: 0.625rem;
+  height: 0.625rem;
+  position: absolute;
+  background: var(--yellow, #fb0);
+}
+.HAtitle {
+  color: var(--blue, #0e1fcc);
+  font-family: Hind;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  position: absolute;
+  top: 61%;
+  left: 48%;
+}
+.Himg {
+  width: 6.125rem;
+  height: 6.125rem;
+}
+.card {
+  width: 22.4375rem;
+  height: 15.5625rem;
+  border-radius: 0.625rem;
+  background: var(--white, #fffefb);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.18);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.HD {
+  color: var(--blue, #0e1fcc);
+  font-family: Hind;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+@media (min-width: 1251px) {
+  .HAtitle {
+   top: 117%;
+   left: 47%;
+  }
+  .star::after {
+   top: 120%;
+    left: 11%;
+  }
+  .star::before {
+   top: 120%;
+   right: 11%;
+  }
+  .dot::after {
+   top: 120%;
+   left: 9%;
+  }
+  .dot1::after {
+   top: 120%;
+   left: 10%;
+  }
+  .dot::before {
+   top: 120%;
+   right: 9%;
+  }
+  .dot1::before {
+   top: 120%;
+   right: 10%;
+  }
+}
+@media (min-width: 801px) and (max-width: 1250px) {
+  .HAtitle {
+    top: 80%;
+    left: 43%;
+  }
+  .star::after {
+    top: 82%;
+    left: 7%;
+    width: 11rem;
+  }
+  .star::before {
+    top: 82%;
+    right: 14%;
+    width: 11rem;
+  }
+  .dot::after {
+    top: 82%;
+    left: 3%;
+  }
+  .dot1::after {
+    top: 82%;
+    left: 5%;
+  }
+  .dot::before {
+    top: 82%;
+    right: 12%;
+  }
+  .dot1::before {
+    top: 82%;
+    right: 10%;
+  }
+  .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+@media (min-width: 300px) and (max-width: 800px) {
+  .HAtitle {
+    top: 80%;
+    left: 43%;
+  }
+  .star::after {
+    top: 82%;
+    left: 14%;
+    width: 4rem;
+  }
+  .star::before {
+    top: 82%;
+    right: 11%;
+    width: 4rem;
+  }
+  .dot::after {
+    top: 82%;
+    left: 3%;
+  }
+  .dot1::after {
+    top: 82%;
+    left: 8%;
+  }
+  .dot::before {
+    top: 82%;
+    right: 5%;
+  }
+  .dot1::before {
+    top: 82%;
+    right: 8%;
+  }
+  .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+.card:hover {
+  background-color: #0e1fcc;
+  color: #fffefb;
+}
+.HD:hover {
+  color: #fffefb;
+}
+.Himg:hover {
+  background-color: white;
+}
