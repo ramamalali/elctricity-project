@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/elctricity-project/static/css/main.9c0a283d.css",
+    "main.js": "/elctricity-project/static/js/main.eec559ef.js",
+    "static/js/787.ec704a7a.chunk.js": "/elctricity-project/static/js/787.ec704a7a.chunk.js",
+    "static/media/news1.jpg": "/elctricity-project/static/media/news1.d5049fdb690d41fff092.jpg",
+    "static/media/Electricity.jpg": "/elctricity-project/static/media/Electricity.016e73d84efa4fb3de96.jpg",
+    "static/media/news2.jpg": "/elctricity-project/static/media/news2.0f8f49a64a762b449a57.jpg",
+    "static/media/news3.jpg": "/elctricity-project/static/media/news3.f8e6834cc1f9eba5404c.jpg",
+    "static/media/2.jpg": "/elctricity-project/static/media/2.c73bc2f9c4483ef2dce2.jpg",
+    "static/media/img1.jpg": "/elctricity-project/static/media/img1.4928f22eeefe3c79d580.jpg",
+    "static/media/Mat2.jpg": "/elctricity-project/static/media/Mat2.b92376c7ccbe2b2ea1cf.jpg",
+    "static/media/Mat4.jpg": "/elctricity-project/static/media/Mat4.3dca8c26011f8e231df4.jpg",
+    "static/media/comimg.svg": "/elctricity-project/static/media/comimg.5241ad830e5d49eb2c1b09db8236f7f1.svg",
+    "static/media/Mat1.jpg": "/elctricity-project/static/media/Mat1.4a509e3217f90d9b4b64.jpg",
+    "static/media/Mat5.jpg": "/elctricity-project/static/media/Mat5.17706acf9ec99030d445.jpg",
+    "static/media/logo 4.svg": "/elctricity-project/static/media/logo 4.07ca5070c67dfedef18cd1c2b250e75f.svg",
+    "static/media/Mat3.jpg": "/elctricity-project/static/media/Mat3.e35486491044a486f650.jpg",
+    "static/media/icon2.svg": "/elctricity-project/static/media/icon2.ef77fbcc8ee093e725112d63ed6c6a9f.svg",
+    "static/media/icon3.svg": "/elctricity-project/static/media/icon3.0f97a8cabb2cf14d6f0a915ebdcda855.svg",
+    "static/media/icon.svg": "/elctricity-project/static/media/icon.05611d806715fc3fd20c78b5eb3c14fc.svg",
+    "static/media/slick.svg": "/elctricity-project/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/elctricity-project/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/elctricity-project/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/elctricity-project/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/elctricity-project/index.html",
+    "main.9c0a283d.css.map": "/elctricity-project/static/css/main.9c0a283d.css.map",
+    "main.eec559ef.js.map": "/elctricity-project/static/js/main.eec559ef.js.map",
+    "787.ec704a7a.chunk.js.map": "/elctricity-project/static/js/787.ec704a7a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9c0a283d.css",
+    "static/js/main.eec559ef.js"
+  ]
+}
